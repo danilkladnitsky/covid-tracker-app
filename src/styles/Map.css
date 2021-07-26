@@ -1,0 +1,24 @@
+.map {
+  height: 400px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 7px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.map .leaflet-container{
+  height: 100%;
+}
+
+.popup__stat img{
+  object-fit: contain;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 990px){
+  .map{
+    margin-bottom: 20px;
+  }
+}

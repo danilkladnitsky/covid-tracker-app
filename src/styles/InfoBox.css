@@ -1,0 +1,14 @@
+.infoBox {
+  padding: 0px 20px;
+}
+
+.infoBox__total {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .infoBox {
+    padding: 0px 5px;
+  }
+}
